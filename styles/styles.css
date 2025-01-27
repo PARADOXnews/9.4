@@ -1,0 +1,198 @@
+header {
+   background-color: white;
+}
+.qveda button {
+   background: #DD2590;padding: 20px 33px 20px 33px;color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.qveda h2 {
+   color: #000;
+font-family: Mulish;
+font-size: 35px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.qveda p {
+   color: #7E7E7E;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.qveda {
+   height:596px;
+   width: 100%;
+   background: #FFF;
+   box-shadow: 0px 20px 38px 0px rgba(216, 216, 216, 0.25);
+   max-width: 1028px;
+   padding: 59px 66px;
+}
+
+.zeda h2 {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 45px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+}
+
+.zeda p {
+   color: #FFF;
+   text-align: center;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.zeda {
+   max-width: 723px;
+   width: 100%;
+}
+
+.services {
+   background: #DD2590;
+   width: 100%;
+}
+
+.services>div {
+   max-width: 1440px;
+   width: 100%;
+   padding: 84px 32px;
+}
+
+.provide div:last-child.ormoci p {
+   line-height: normal;
+}
+
+.provide p {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 28px;
+   /* 155.556% */
+}
+
+.provide h1 {
+   color: #DD2590;
+   font-family: Inter;
+   font-size: 45px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+}
+
+.aura {
+   position: relative;
+
+   padding-bottom: 56px;
+}
+
+.aura::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgba(0, 0, 0, 0.5);
+   z-index: 0;
+}
+
+.aura h1 {
+   max-width: 619px;
+   width: 100%;
+}
+
+.aura>div:first-child {
+   position: relative;
+   padding-left: 32px;
+   z-index: 1;
+   max-width: 1028px;
+   width: 100%;
+   ;
+}
+
+.aura h1 {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 60px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+}
+
+.aura button {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   background: #DD2590;
+   padding: 20px 33px 21px 33px;
+}
+
+.aura {
+   background: url(../images/aura.png) no-repeat center center;
+   height: 825px;
+   width: 100%;
+   max-width: 1440px;
+   ;
+}
+
+.contact {
+   width: 100%;
+}
+
+.contact h2 {
+   color: #DD2590;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+.contact p {
+   color: #7E7E7E;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.center {
+   gap: 104px;
+}
+
+main {
+   padding-top: 30px;
+   gap: 104px;
+}
+
+.header p {
+   color: #1C2752;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+
+main {
+   background: #0E0E0E;
+}
