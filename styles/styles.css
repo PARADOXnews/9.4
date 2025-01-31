@@ -1,33 +1,217 @@
+
+
+
+.choose {
+   max-width: 1028px;
+   width: 100%;
+}
+
+.footer {
+   padding-bottom: 32px;
+}
+
+.faces h2 {
+   color: #DD2590;
+   font-family: Inter;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 44px;
+   /* 122.222% */
+   letter-spacing: -0.72px;
+}
+
+.faces p {
+   color: #7E7E7E;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px;
+   /* 150% */
+}
+
+.project {
+   height: 483px;
+   padding: 56px;
+   background: rgba(28, 39, 82, 0.30);
+   backdrop-filter: blur(12.5px);
+   max-width: 512px;
+   width: 100%;
+}
+
+.project button {
+   color: #FFF;
+   text-align: center;
+   font-family: Mulish;
+   font-size: 25px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+   background: #DD2590;
+   padding: 17px 18px;
+}
+
+.project p {
+   color: #FFF;
+   font-family: Mulish;
+   width: 100%;
+   font-size: 25px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   height: 65px;
+   padding: 17px 22px;
+   border: 1px solid #FFF;
+}
+
+.right {
+   background: url("../images/squid.png") no-repeat center center;
+   width: 100%;
+}
+
+.left {
+   max-width: 545px;
+   width: 100%;
+   ;
+}
+
+.left h2 {
+   color: #DD2590;
+   font-family: Inter;
+   font-size: 45px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+}
+
+.left p {
+   color: #7E7E7E;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 28px;
+   /* 155.556% */
+}
+
+.left h3 {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+.reasons {
+   max-width: 1234px;
+   width: 100%;
+   height: 706px;
+}
+
+.squid {
+   max-width: 1440px;
+   width: 100%;
+}
+
+.cards p {
+   color: #000;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px;
+   /* 133.333% */
+}
+
+.cards a {
+   color: #000;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+
+.cards h2 {
+   color: #DD2590;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 28px;
+   /* 140% */
+}
+
+.cards>div {
+   height: 325px;
+   opacity: 0.9;
+   background: #FFE1F3;
+   padding: 47px 37px 47px 36px;
+}
+
+.our {
+   max-width: 687px;
+   width: 100%;
+}
+
+.our h2 {
+   color: #FFF;
+   text-align: center;
+   font-family: Inter;
+   font-size: 45px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+}
+
+.our p {
+
+   color: #FFF;
+   text-align: center;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
 header {
    background-color: white;
 }
+
 .qveda button {
-   background: #DD2590;padding: 20px 33px 20px 33px;color: #FFF;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+   background: #DD2590;
+   padding: 20px 33px 20px 33px;
+   color: #FFF;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
 }
+
 .qveda h2 {
    color: #000;
-font-family: Mulish;
-font-size: 35px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+   font-family: Mulish;
+   font-size: 35px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
 }
 
 .qveda p {
    color: #7E7E7E;
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
 }
+
 .qveda {
-   height:596px;
+   height: 596px;
    width: 100%;
    background: #FFF;
    box-shadow: 0px 20px 38px 0px rgba(216, 216, 216, 0.25);
@@ -178,10 +362,7 @@ line-height: normal;
    gap: 104px;
 }
 
-main {
-   padding-top: 30px;
-   gap: 104px;
-}
+
 
 .header p {
    color: #1C2752;
@@ -192,7 +373,12 @@ main {
    line-height: normal;
 }
 
+body {
+   background: #0E0E0E;
+}
 
 main {
-   background: #0E0E0E;
+   padding-top: 30px;
+   gap: 104px;
+   padding-bottom: 393px;
 }

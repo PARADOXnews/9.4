@@ -51,7 +51,7 @@ a {
 
 .footer {
    display: flex;
-   max-width: 840px;
+   max-width: 1028px;
    width: 100%;
    align-items: center;
 }
@@ -168,6 +168,11 @@ footer {
 .ocdaati {
    display: flex;
    gap: 30px;
+}
+
+.ocdaxuti {
+   display: flex;
+   gap: 25px;
 }
 
 .ocdaotxi {
