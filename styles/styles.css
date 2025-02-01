@@ -1,5 +1,143 @@
+.face {
+   max-width: 321px;
+   height: 480px;
+   width: 100%;
+   padding: 20px;
+}
+
+.faces>.ocdatormeti {
+   max-width: 1028px;
+   width: 100%;
+}
+
+.face1 {
+   background: url(../images/qali.png)
+}
+
+.face2 {
+   background: url(../images/kaci.png)
+}
 
 
+.face3 {
+   background: url(../images/qali2.png)
+}
+
+.footer.cflex.samoci {
+   padding-bottom: 0;
+}
+
+.b>div:first-child p {
+   color: #000;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+
+.b>div p {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+
+.b>div:first-child {
+   background-color: white;
+}
+
+.b>div {
+   border: 1px solid #FFF;
+   width: 100%;
+   max-width: 221px;
+   height: 65px;
+}
+
+.copyright {
+   width: 100%;
+   padding-top: 19px;
+   padding-bottom: 32px;
+}
+
+.copyright p {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 144.523%;
+   /* 26.014px */
+}
+
+
+.fnav>div:nth-child(2)>div:nth-child(3) {
+   border-left: 1px solid #4B557D;
+   padding-left: 41px;
+}
+
+.fnav>div:nth-child(2) li,
+.fnav>div:nth-child(3) li {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 175.023%;
+   /* 31.504px */
+}
+
+.fnav>div:nth-child(2) p,
+.fnav>div:nth-child(3) p {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+.fnav>div:nth-child(2)>div:nth-child(2) {
+   padding: 0 34px;
+
+   border-left: 1px solid #4B557D;
+}
+
+.fnav>div:first-child {
+   max-width: 474px;
+   width: 100%;
+   border-right: 1px solid #4B557D;
+   padding-right: 34px;
+}
+
+.fnav>div:first-child p {
+   color: #FFF;
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 144.523%;
+   /* 26.014px */
+}
+
+.c {
+   width: 100%;
+   padding-left: 34px;
+}
+
+.footer>.cflex {
+   max-width: 1028px;
+   width: 100%;
+}
+
+.fnav {
+
+   border-top: 1px solid #4B557D;
+   border-bottom: 1px solid #4B557D;
+   padding: 41px 0;
+}
 
 .choose {
    max-width: 1028px;
@@ -210,12 +348,18 @@ header {
    line-height: normal;
 }
 
-.qveda {
+.qveda>div {
+   width: 100%;
+   max-width: 391px;
+}
+
+.qveda.samoci.aic {
    height: 596px;
+   max-width: 1028px;
    width: 100%;
    background: #FFF;
    box-shadow: 0px 20px 38px 0px rgba(216, 216, 216, 0.25);
-   max-width: 1028px;
+
    padding: 59px 66px;
 }
 
@@ -238,7 +382,7 @@ header {
    line-height: normal;
 }
 
-.zeda {
+.zeda.cflex {
    max-width: 723px;
    width: 100%;
 }
@@ -246,12 +390,13 @@ header {
 .services {
    background: #DD2590;
    width: 100%;
+   padding: 84px 32px;
 }
 
 .services>div {
-   max-width: 1440px;
+   max-width: 1028px;
    width: 100%;
-   padding: 84px 32px;
+
 }
 
 .provide div:last-child.ormoci p {
@@ -279,7 +424,6 @@ header {
 
 .aura {
    position: relative;
-
    padding-bottom: 56px;
 }
 

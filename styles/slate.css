@@ -1,5 +1,171 @@
 @media screen and (min-width:768px) and (max-width:1023px) {
-   main {padding:30px 32px 0 32px}
-  
-   
+   main {
+      padding: 32px 32px 303px 32px
+   }
+
+   .header .teqsvmeti {
+      display: none;
+   }
+
+   .header {
+      max-width: 548px;
+      justify-content: start;
+   }
+
+   .contact {
+      flex-direction: column;
+      width: 100%;
+      gap: 16px;
+      align-items: flex-start;
+      justify-content: center;
+   }
+
+   .a {
+      justify-content: center;
+      gap: 0;
+      max-width: 548px;
+      width: 100%;
+   }
+
+   main {
+      gap: 64px;
+   }
+
+   .provide .ormoci {
+      flex-direction: column;
+   }
+
+   .provide>img {
+      max-width: 340px;
+      width: 100%;
+      object-fit: cover;
+   }
+
+   .center {
+      max-width: 704px;
+   }
+
+   .b {
+      flex-direction: column;
+   }
+
+   .b>div {
+      justify-content: start;
+      padding-left: 89px;
+      gap: 40px;
+      max-width: 640px;
+      width: 100%;
+   }
+
+   .qveda.samoci.aic {
+      flex-direction: column;
+      height: 1002px;
+
+   }
+
+   .qveda>div:first-child,
+   .qveda>img {
+      max-width: 508px;
+      width: 100%;
+   }
+
+   .qveda>img {
+      object-fit: cover;
+   }
+
+
+   .services {
+      height: unset;
+      max-width: 704px;
+   }
+
+   .cards {
+      max-width: 704px;
+      width: 100%;
+   }
+
+   .cards>div {
+      height: unset;
+   }
+
+   .reasons {
+      flex-direction: column;
+      height: unset;
+   }
+
+   .right {
+      height: 648px;
+      max-width: 704px;
+      background-size: cover;
+   }
+
+   .reasons.samoci {
+      align-items: center;
+   }
+
+   .faces {
+      height: unset;
+   }
+
+   .faces>.ocdatormeti {
+      flex-direction: column;
+      max-width: 704px;
+      width: 100%;
+   }
+
+   .face {
+      max-width: unset;
+      height: 638px;
+   }
+
+   .face1 {
+      background: url(../images/face1.png)
+   }
+
+   .face2 {
+      background: url(../images/face2.png)
+   }
+
+
+   .face3 {
+      background: url(../images/face3.png)
+   }
+
+   .fnav,
+   .fnav div.jcb,
+   .fnav div.cflex,
+   #d {
+      border: none
+   }
+
+   footer,
+   .footer {
+      padding-left: 32px;
+      padding-right: 32px;
+   }
+
+   .fnav {
+      flex-direction: column;
+   }
+
+   .c,
+   .c>div.jcb,
+   .c div.cflex {
+      justify-content: space-between;
+   }
+
+   .c {
+      justify-content: start;
+      padding-left: 0;
+      height: 192px;
+   }
+
+   .fnav {
+      gap: 32px
+   }
+
+   .copyright {
+      justify-content: start;
+      padding-bottom: 76px;
+   }
 }

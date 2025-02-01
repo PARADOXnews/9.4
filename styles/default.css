@@ -160,6 +160,11 @@ footer {
    gap: 36px;
 }
 
+.ocdatotxmeti {
+   display: flex;
+   gap: 34px;
+}
+
 .ocdatormeti {
    display: flex;
    gap: 32px;

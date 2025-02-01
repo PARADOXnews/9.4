@@ -1,4 +1,142 @@
 @media screen and (max-width:768px) {
 
-   
+   main,
+   header,
+   footer {
+      padding-left: 16px;
+      padding-right: 16px;
+   }
+
+   .aura div.jcs {
+      padding-left: 0
+   }
+
+   .contact {
+      flex-direction: column;
+      width: 100%;
+      gap: 16px;
+      align-items: flex-start;
+      justify-content: center;
+   }
+
+   .header .teqsvmeti {
+      display: none;
+   }
+
+   .contact>div.samocdaotxi {
+      flex-direction: column;
+      gap: 16px;
+   }
+
+   .aura {
+      align-items: self-start;
+   }
+
+
+   .provide,
+   .provide .ormoci {
+      flex-direction: column;
+   }
+
+
+   .provide img {
+      object-fit: cover;
+      align-self: flex-start;
+      width:100%;
+   }
+#aa img {width:unset;}
+   .services .qveda {
+      flex-direction: column;
+      height: unset;
+   }
+
+   .qveda.samoci.aic {
+      height: unset
+   }
+
+   .reasons {
+      flex-direction: column;
+      height: unset;
+   }
+
+   .fnav,
+   .fnav div.jcb,
+   .fnav div.cflex,
+   #d {
+      border: none
+   }
+
+   #f {
+      flex-direction: row;
+   }
+
+   .fnav {
+      gap: 32px
+   }
+
+   .fnav>div,
+   #d {
+      padding-left: 0;
+   }
+
+   .c {
+      gap: 34px;
+   }
+
+   .fnav,
+   .fnav>div,
+   .fnav>div>div {
+      flex-direction: column;
+   }
+
+   #g {
+      max-width: unset;
+   }
+
+   .b {
+      flex-direction: column;
+   }
+
+   .cards {
+      flex-direction: column;
+   }
+
+   #saxe {
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .face {
+      padding: 0;
+      max-width: unset;
+      object-fit: cover;
+      background-repeat: no-repeat;
+   }
+
+   .qveda.samoci.aic {
+      padding: 32px 16px;
+   }
+
+   .qveda>img {
+      height: 390px;
+      width: 100%;
+      object-fit: cover;
+   }
+
+   main {
+      padding-bottom: 94px;
+   }
+
+   .fnav.dflex {
+      padding-top: 0
+   }
+
+.aura h1 {color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;}
 }
