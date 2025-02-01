@@ -422,7 +422,10 @@ header {
    line-height: normal;
 }
 
+.bb {width:100%;}
 .aura {
+   max-width: 1440px;
+   width:100%;
    position: relative;
    padding-bottom: 56px;
 }
